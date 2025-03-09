@@ -1,5 +1,4 @@
 @import "tailwindcss";
-
 @plugin "tailwindcss-animate";
 
 @custom-variant dark (&:is(.dark *));
@@ -116,6 +115,14 @@
   --sidebar-ring: oklch(0.439 0 0);
 }
 
+@theme {
+  --font-display: "Satoshi", "sans-serif";
+  --color-primary:#DB7093;
+  --color-secondary:#FFD700;
+  --color-accent:#FF6347;
+  --color-muted:#A9A9A9;
+
+}
 @layer base {
   * {
     @apply border-border outline-ring/50;
